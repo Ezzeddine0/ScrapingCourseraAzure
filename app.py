@@ -168,7 +168,7 @@ def get_track():
     if not track_data:
         return jsonify({"error": "Failed to extract track data"}), 500
 
-    return jsonify(track_data)
+    return jsonify(track_data) 
 
 if __name__ == '__main__':
     app.run(debug=True)
